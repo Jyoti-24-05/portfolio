@@ -9,7 +9,7 @@ Personal portfolio site built with Next.js 14 and Tailwind CSS.
 - **Font**: Inter (Google Fonts)
 - **Deploy**: Vercel
 
-## Local Development
+<!-- ## Local Development
 
 ```bash
 # Install dependencies
@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Push this repo to GitHub
 2. Go to [vercel.com](https://vercel.com) → New Project → Import your repo
 3. Framework: **Next.js** (auto-detected)
-4. Click **Deploy** — no env vars needed
+4. Click **Deploy** — no env vars needed -->
 
 ## Customising
 
