@@ -219,21 +219,23 @@ function ProjectRow({ project }) {
             </div>
           </div>
           {/* Screenshot */}
-          <div className="relative w-full h-52 md:h-60 bg-bg-secondary overflow-hidden">
-            <Image
-              src={project.image}
-              alt={`${project.title} screenshot`}
-              fill
-              className="object-cover object-top opacity-80 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-700"
-              sizes="(max-width: 768px) 100vw, 58vw"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
-            />
+          <div className="relative w-full bg-bg-secondary overflow-hidden">
+  <Image
+    src={project.image}
+    alt={`${project.title} screenshot`}
+    width={1200}
+    height={750}
+    className="w-full h-auto grayscale group-hover:grayscale-0 opacity-80 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-700"
+    sizes="(max-width: 768px) 100vw, 58vw"
+    onError={(e) => { e.currentTarget.style.display = "none"; }}
+  />
+  <div className="absolute inset-0 bg-sage/20 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-500 pointer-events-none" />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-fg-muted/25 pointer-events-none">
               <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.8">
                 <rect x="2" y="3" width="20" height="14" rx="2" />
                 <path d="M8 21h8M12 17v4" />
               </svg>
-              <span className="font-mono text-xs tracking-widest">Add screenshot to /public/screenshots/</span>
+              <span className="font-mono text-xs tracking-widest"></span>
             </div>
           </div>
         </div>

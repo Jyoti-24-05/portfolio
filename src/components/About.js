@@ -71,7 +71,7 @@ export default function About() {
               <div className="relative w-full h-full rounded overflow-hidden border border-border/60 bg-bg-card">
                 {!imgError ? (
                   <Image
-                    src="/public/profile.jpg"
+                    src="/profile.jpg"
                     alt="Jyoti Kumari"
                     fill
                     className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
