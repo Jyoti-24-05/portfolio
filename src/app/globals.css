@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Fira+Code:wght@300;400;500&display=swap");
+
+:root {
+  --font-syne: "Syne", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-fira-code: "Fira Code", monospace;
+
+  --color-bg: #212d2d;
+  --color-bg-secondary: #2a3530;
+  --color-bg-card: #363f3a;
+  --color-bg-accent: #40423b;
+  --color-fg-primary: #cdd8d0;
+  --color-fg-secondary: #8fa89a;
+  --color-fg-muted: #66726b;
+  --color-sage: #8fa89a;
+  --color-sage-light: #b0c9bc;
+  --color-border: #4a5a52;
+
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg-primary);
+  font-family: var(--font-dm-sans);
+  font-size: 17px;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-fg-muted);
+}
+
+::selection {
+  background: rgba(143, 168, 154, 0.25);
+  color: var(--color-sage-light);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+.section-number {
+  font-family: var(--font-fira-code);
+  color: var(--color-sage);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.sage-underline {
+  position: relative;
+  display: inline-block;
+}
+.sage-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-sage);
+  transition: width 0.3s ease;
+}
+.sage-underline:hover::after {
+  width: 100%;
+}
+
+.sage-glow:hover {
+  box-shadow: 0 0 20px rgba(143, 168, 154, 0.15);
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(143, 168, 154, 0.08);
+  background-color: #3d4943;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1.1em;
+  background: var(--color-sage);
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-sage);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.section-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.section-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
