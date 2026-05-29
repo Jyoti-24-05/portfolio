@@ -136,19 +136,16 @@ export const experience = [
 
 export const achievements = [
   {
-    icon: "🏆",
     title: "EY Hackathon",
     description:
       "Built Loanease — an AI-driven conversational assistant automating personal loan acquisition, solving a challenge proposed by TATA Capital.",
   },
   {
-    icon: "⚡",
     title: "LeetCode Rating 1710 · Top 10%",
     description:
       "300+ problems solved spanning Dynamic Programming, Graphs, and Trees with consistent contest participation.",
   },
   {
-    icon: "⭐",
     title: "CodeChef 2-Star",
     description:
       "Active competitive programmer on Codeforces and CodeChef global rounds, refining algorithmic efficiency under strict constraints.",

@@ -18,7 +18,7 @@ export default function Footer() {
         </a>
       </p>
       <p className="font-mono text-xs text-fg-muted/30 mt-1">
-        Next.js · Tailwind CSS · Beach Stillness
+        Next.js · Tailwind CSS 
       </p>
     </footer>
   );
