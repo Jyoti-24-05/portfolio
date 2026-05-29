@@ -4,9 +4,9 @@ import RevealOnScroll from "./RevealOnScroll";
 
 export default function Achievements() {
   return (
-    <section className="py-20 px-6 md:px-16 lg:px-32 xl:px-48 max-w-6xl mx-auto">
+    <section className="py-20 px-6 md:px-10 lg:px-16 xl:px-24 max-w-7xl mx-auto">
       <RevealOnScroll>
-        <SectionHeading number="05" title="Achievements" />
+        <SectionHeading number="06" title="Achievements" />
       </RevealOnScroll>
 
       <div className="grid md:grid-cols-3 gap-5">

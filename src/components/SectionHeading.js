@@ -1,8 +1,9 @@
 export default function SectionHeading({ number, title }) {
   return (
     <div className="flex items-center gap-4 mb-14">
-      <span className="font-mono text-sage text-sm">{number}.</span>
-      <h2 className="font-display font-bold text-2xl md:text-3xl text-fg-primary tracking-tight">
+      <span className="font-mono text-sage text-base">{number}.</span>
+      <h2 className="font-display font-bold text-3xl md:text-4xl tracking-tight"
+        style={{ color: "#A8D5C2" }}>
         {title}
       </h2>
       <span

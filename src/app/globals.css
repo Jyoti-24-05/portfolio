@@ -13,11 +13,15 @@
   --color-bg-secondary: #2a3530;
   --color-bg-card: #363f3a;
   --color-bg-accent: #40423b;
-  --color-fg-primary: #cdd8d0;
-  --color-fg-secondary: #8fa89a;
-  --color-fg-muted: #66726b;
+
+  /* Increased contrast across the board */
+  --color-fg-primary: #eaf2ee;      /* was #cdd8d0 — near white with green tint */
+  --color-fg-secondary: #b0c9bc;    /* was #8fa89a — more readable */
+  --color-fg-muted: #8ba098;        /* was #66726b — bumped up */
+
   --color-sage: #8fa89a;
   --color-sage-light: #b0c9bc;
+  --color-heading: #A8D5C2;         /* new — mint highlight for headings */
   --color-border: #4a5a52;
 
   scroll-behavior: smooth;
@@ -58,8 +62,8 @@ body {
 }
 
 ::selection {
-  background: rgba(143, 168, 154, 0.25);
-  color: var(--color-sage-light);
+  background: rgba(168, 213, 194, 0.25);
+  color: var(--color-heading);
 }
 
 body::before {

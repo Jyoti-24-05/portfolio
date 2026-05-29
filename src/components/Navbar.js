@@ -4,10 +4,11 @@ import { useState, useEffect } from "react";
 
 const navLinks = [
   { label: "About", href: "#about", num: "01" },
-  { label: "Experience", href: "#experience", num: "02" },
-  { label: "Projects", href: "#projects", num: "03" },
-  { label: "Skills", href: "#skills", num: "04" },
-  { label: "Contact", href: "#contact", num: "05" },
+  { label: "Education", href: "#education", num: "02" },
+  { label: "Experience", href: "#experience", num: "03" },
+  { label: "Projects", href: "#projects", num: "04" },
+  { label: "Skills", href: "#skills", num: "05" },
+  { label: "Contact", href: "#contact", num: "06" },
 ];
 
 export default function Navbar() {
@@ -56,7 +57,7 @@ export default function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <nav className="max-w-6xl mx-auto px-6 md:px-12 h-18 flex items-center justify-between py-4">
+        <nav className="w-full px-6 md:px-10 lg:px-16 xl:px-24 h-18 flex items-center justify-between py-4">
           {/* Logo */}
           <a
             href="#hero"

@@ -48,6 +48,7 @@ export const projects = [
     description:
       "A Spotify-inspired music streaming platform with real-time chat, dynamic playlists, live listening activity, and an admin dashboard for complete catalog management.",
     tech: ["MERN Stack", "Socket.io", "Tailwind CSS", "JWT", "Cloudinary"],
+    image: "/public/screenshots/musix.png",
     liveUrl: "https://musix-7xhg.onrender.com",
     githubUrl: "https://github.com/Jyoti",
     status: "live",
@@ -65,6 +66,7 @@ export const projects = [
     description:
       "An agentic AI pipeline that transforms any web article into an immersive audio podcast using GPT-4o reasoning, Firecrawl for scraping, and ElevenLabs for voice synthesis.",
     tech: ["Python", "React.js", "Agno Agents", "GPT-4o", "ElevenLabs", "Streamlit"],
+    image: "/public/screenshots/podcast-agent.png",
     liveUrl: "https://5mftrnudx9kaescr3zqivz.streamlit.app/",
     githubUrl: "https://github.com/Jyoti",
     status: "live",
@@ -82,6 +84,7 @@ export const projects = [
     description:
       "A high-traffic MERN stack event portal centralising activity for 15+ student organisations — featuring WebSocket notifications, RSVP tracking, social sharing, and role-based access control.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "WebSockets"],
+    image: "/public/screenshots/bitconnect.png",
     liveUrl: null,
     githubUrl: "https://github.com/Jyoti",
     status: "coming-soon",
@@ -99,6 +102,7 @@ export const projects = [
     description:
       "A high-performance ensemble model combining XGBoost and Random Forest to classify network threats across DoS, Probe, R2L, and U2R categories using the NSL-KDD dataset.",
     tech: ["Python", "Scikit-learn", "XGBoost", "Random Forest", "Pandas", "NumPy"],
+    image: "/public/screenshots/nids.png",
     liveUrl: null,
     githubUrl: "https://github.com/Jyoti",
     status: "coming-soon",

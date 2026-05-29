@@ -7,7 +7,7 @@ const roles = [
   "Full-Stack Developer",
   "ML Engineer",
   "Problem Solver",
-  "ECE Student @ BIT Mesra",
+  "ECE Student @ BIT",
 ];
 
 export default function Hero() {

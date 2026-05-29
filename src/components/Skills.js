@@ -11,12 +11,9 @@ const categories = [
   { label: "Core Concepts", key: "concepts", icon: "⬡" },
 ];
 
-function SkillPill({ name, delay }) {
+function SkillPill({ name }) {
   return (
-    <span
-      className="inline-flex items-center gap-1.5 px-3 py-2 rounded font-mono text-sm text-fg-secondary bg-bg-secondary border border-border/50 hover:border-sage/40 hover:text-sage hover:bg-sage/5 transition-all duration-300 cursor-default"
-      style={{ transitionDelay: `${delay}ms` }}
-    >
+    <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded font-mono text-sm text-fg-secondary bg-bg-secondary border border-border/50 hover:border-sage/40 hover:text-sage hover:bg-sage/5 transition-all duration-300 cursor-default">
       <span className="w-1.5 h-1.5 rounded-full bg-sage/50 flex-shrink-0" />
       {name}
     </span>
@@ -25,28 +22,30 @@ function SkillPill({ name, delay }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-28 px-6 md:px-16 lg:px-32 xl:px-48 max-w-6xl mx-auto">
+    <section id="skills" className="py-28 px-6 md:px-10 lg:px-16 xl:px-24 max-w-7xl mx-auto">
       <RevealOnScroll>
-        <SectionHeading number="04" title="Skills & Stack" />
+        <SectionHeading number="05" title="Skills & Stack" />
       </RevealOnScroll>
 
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+      {/* Equal-width grid — each card stretches to fill its cell */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
         {categories.map(({ label, key, icon }, ci) => (
           <RevealOnScroll key={key} delay={ci * 70}>
-            <div className="bg-bg-card border border-border/50 rounded-lg p-5 hover:border-border transition-colors duration-400 group">
+            {/* flex-col + h-full makes every card the same height within its row */}
+            <div className="flex flex-col h-full bg-bg-card border border-border/50 rounded-lg p-5 hover:border-border transition-colors duration-300 group">
               {/* Category header */}
-              <div className="flex items-center gap-3 mb-4">
-                <span className="font-mono text-base text-sage/60 group-hover:text-sage transition-colors duration-300">
+              <div className="flex items-center gap-3 mb-4 flex-shrink-0">
+                <span className="font-mono text-base text-sage/60 group-hover:text-sage transition-colors duration-300 w-6 text-center">
                   {icon}
                 </span>
                 <h3 className="font-mono text-sm text-fg-muted tracking-widest uppercase">
                   {label}
                 </h3>
               </div>
-              {/* Pills */}
-              <div className="flex flex-wrap gap-2">
-                {skills[key].map((skill, si) => (
-                  <SkillPill key={skill} name={skill} delay={si * 30} />
+              {/* Pills — fill remaining vertical space */}
+              <div className="flex flex-wrap gap-2 flex-1 content-start">
+                {skills[key].map((skill) => (
+                  <SkillPill key={skill} name={skill} />
                 ))}
               </div>
             </div>

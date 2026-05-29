@@ -5,10 +5,10 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-32 px-6 md:px-16 lg:px-32 xl:px-48 max-w-4xl mx-auto text-center"
+      className="py-32 px-6 md:px-10 lg:px-16 xl:px-24 max-w-7xl mx-auto text-center"
     >
       <RevealOnScroll>
-        <span className="font-mono text-base text-sage tracking-widest">05. What&apos;s Next?</span>
+        <span className="font-mono text-base text-sage tracking-widest">07. What&apos;s Next?</span>
       </RevealOnScroll>
 
       <RevealOnScroll delay={80}>

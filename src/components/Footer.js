@@ -7,14 +7,12 @@ export default function Footer() {
           Jyoti Kumari
         </span>
         <span className="mx-2 text-border">·</span>
-        Inspired by{" "}
         <a
           href="https://brittanychiang.com"
           target="_blank"
           rel="noreferrer"
           className="text-fg-muted/70 hover:text-sage transition-colors duration-300"
         >
-          Brittany Chiang
         </a>
       </p>
       <p className="font-mono text-xs text-fg-muted/30 mt-1">
