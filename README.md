@@ -27,6 +27,18 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 
 --- -->
 
+## Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Styling | Tailwind CSS 3.4 |
+| Language | JavaScript (ES2022) |
+| Fonts | Syne · DM Sans · Fira Code |
+| Deployment | Vercel |
+
+---
+
 ## Features
 
 - **Typewriter hero** — animated role switcher cycling through developer titles
@@ -42,17 +54,7 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 
 ---
 
-## Tech Stack
 
-| Category | Technology |
-|---|---|
-| Framework | Next.js 14 (App Router) |
-| Styling | Tailwind CSS 3.4 |
-| Language | JavaScript (ES2022) |
-| Fonts | Syne · DM Sans · Fira Code |
-| Deployment | Vercel |
-
----
 
 ## Project Structure
 
