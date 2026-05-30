@@ -10,7 +10,7 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 
 ---
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 <div align="center">
 
@@ -25,7 +25,7 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 
 </div>
 
----
+--- -->
 
 ## Features
 
