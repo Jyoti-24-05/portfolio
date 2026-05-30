@@ -10,22 +10,22 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 
 ---
 
-<!-- ## 📸 Screenshots
+## 📸 Screenshots
 
 <div align="center">
 
 ### Home Page
-<img src="./assets/screenshot1.png" alt="Home Page" width="90%" />
+![Portfolio Screenshot](screenshot1.png)
 
 ### Projects sec
-<img src="./assets/screenshot2.png" alt="Project" width="90%" />
+![Portfolio Screenshot](screenshot2.png)
 
 ### Contact me
-<img src="./assets/screenshot3.png" alt="Contact" width="90%" />
+![Portfolio Screenshot](screenshot3.png)
 
 </div>
 
---- -->
+---
 
 ## Features
 
