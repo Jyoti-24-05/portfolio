@@ -9,25 +9,25 @@ module.exports = {
     extend: {
       colors: {
         bg: {
-          DEFAULT: "#212D2D",
-          secondary: "#2A3530",
-          card: "#363F3A",
-          accent: "#40423B",
+          DEFAULT: "#0a120f",
+          secondary: "#1D2E28",
+          card: "#2A4038",
+          accent: "#3B593F",
         },
         fg: {
-          primary: "#CDD8D0",
-          secondary: "#8FA89A",
-          muted: "#66726B",
+          primary: "#F0F7F4",
+          secondary: "#9DCE8D",
+          muted: "#5A8060",
         },
         sage: {
-          DEFAULT: "#8FA89A",
-          light: "#B0C9BC",
-          dark: "#6B8878",
-          glow: "rgba(143,168,154,0.15)",
+          DEFAULT: "#9DCE8D",
+          light: "#B8E0A8",
+          dark: "#4D774E",
+          glow: "rgba(157,206,141,0.15)",
         },
         border: {
-          DEFAULT: "#4A5A52",
-          light: "#5A6E65",
+          DEFAULT: "#2A4038",
+          light: "#3B593F",
         },
       },
       fontFamily: {

@@ -105,7 +105,7 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-fg-muted hover:text-sage transition-colors duration-300 group"
         aria-label="Scroll down"
       >
-        <span className="font-mono text-sm tracking-widest opacity-60">scroll</span>
+        <span className="font-mono text-sm tracking-widest opacity-60"></span>
         <span className="w-px h-10 bg-border/60 group-hover:bg-sage/40 transition-colors duration-300 animate-pulse" />
       </button>
     </section>

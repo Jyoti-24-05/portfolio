@@ -9,20 +9,19 @@
   --font-dm-sans: "DM Sans", sans-serif;
   --font-fira-code: "Fira Code", monospace;
 
-  --color-bg: #212d2d;
-  --color-bg-secondary: #2a3530;
-  --color-bg-card: #363f3a;
-  --color-bg-accent: #40423b;
+  --color-bg: #0a120f;
+  --color-bg-secondary: #1D2E28;
+  --color-bg-card: #2A4038;
+  --color-bg-accent: #3B593F;
 
-  /* Increased contrast across the board */
-  --color-fg-primary: #eaf2ee;      /* was #cdd8d0 — near white with green tint */
-  --color-fg-secondary: #b0c9bc;    /* was #8fa89a — more readable */
-  --color-fg-muted: #8ba098;        /* was #66726b — bumped up */
+  --color-fg-primary: #F0F7F4;
+  --color-fg-secondary: #9DCE8D;
+  --color-fg-muted: #5A8060;
 
-  --color-sage: #8fa89a;
-  --color-sage-light: #b0c9bc;
-  --color-heading: #A8D5C2;         /* new — mint highlight for headings */
-  --color-border: #4a5a52;
+  --color-sage: #9DCE8D;
+  --color-sage-light: #B8E0A8;
+  --color-heading: #64ffda;
+  --color-border: #2A4038;
 
   scroll-behavior: smooth;
   font-size: 17px;
@@ -62,8 +61,8 @@ body {
 }
 
 ::selection {
-  background: rgba(168, 213, 194, 0.25);
-  color: var(--color-heading);
+  background: rgba(100, 255, 218, 0.15);
+  color: #64ffda;
 }
 
 body::before {
@@ -102,7 +101,7 @@ body::before {
 }
 
 .sage-glow:hover {
-  box-shadow: 0 0 20px rgba(143, 168, 154, 0.15);
+  box-shadow: 0 0 24px rgba(100, 255, 218, 0.2);
 }
 
 .card-hover {
@@ -110,8 +109,8 @@ body::before {
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(143, 168, 154, 0.08);
-  background-color: #3d4943;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 24px rgba(100, 255, 218, 0.08);
+  background-color: #1c2e22;
 }
 
 .cursor {
