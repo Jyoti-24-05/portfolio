@@ -3,7 +3,6 @@
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://portfolio-jyoti-24-05.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Personal portfolio website of **Jyoti Kumari** — Software Developer & ECE student at BIT Mesra.  
 Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green color palette.
@@ -11,11 +10,14 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 🌐 **Live Site → [portfolio-jyoti-24-05.vercel.app](https://portfolio-jyoti-24-05.vercel.app/)**
 
 ---
-<!-- 
+
 ## Screenshot
 
-![Portfolio Screenshot](public/screenshot.png)
-![Portfolio Screenshot](public/screenshot.png) -->
+![Portfolio Screenshot](public/screenshot1.png)
+![Portfolio Screenshot](public/screenshot2.png)
+![Portfolio Screenshot](public/screenshot3.png)
+
+
 
 ---
 
