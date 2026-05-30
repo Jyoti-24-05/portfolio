@@ -12,13 +12,11 @@ Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green
 ---
 
 ## Screenshot
-
+```md
 ![Portfolio Screenshot](public/screenshot1.png)
 ![Portfolio Screenshot](public/screenshot2.png)
 ![Portfolio Screenshot](public/screenshot3.png)
-
-
-
+```
 ---
 
 ## Features
