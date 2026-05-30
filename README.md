@@ -1,17 +1,29 @@
+<div align= "center">
+
 # Jyoti Kumari — Portfolio
 
 Personal portfolio website of **Jyoti Kumari** — Software Developer & ECE student at BIT Mesra.  
 Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green color palette.
 
 🌐 **Live Site → [portfolio-jyoti-24-05.vercel.app](https://portfolio-jyoti-24-05.vercel.app/)**
+</div>
 
 ---
 
-## Screenshot
+## 📸 Screenshots
 
-![Hero Section](assets/screenshot1.png)
-![Projects Section](assets/screenshot2.png)
-![Skills Section](assets/screenshot3.png)
+<div align="center">
+
+### Home Page
+<img src="./assets/screenshot1.png" alt="Home Page" width="90%" />
+
+### Projects sec
+<img src="./assets/screenshot2.png" alt="Project" width="90%" />
+
+### Contact me
+<img src="./assets/screenshot3.png" alt="Contact" width="90%" />
+
+</div>
 
 ---
 
@@ -159,16 +171,3 @@ git push
 Vercel builds and redeploys in ~30 seconds.
 
 --- -->
-
-```
-<!-- 
-## Inspiration
-
-Design and layout inspired by [Brittany Chiang's v4 portfolio](https://brittanychiang.com).  
-Built from scratch with a custom color system and original component architecture. -->
-
-<!-- ---
-
-## License
-
-MIT — feel free to use this as a template. If you do, a credit in the footer would be appreciated. -->
