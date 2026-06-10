@@ -85,9 +85,9 @@ export const projects = [
       "A high-traffic MERN stack event portal centralising activity for 15+ student organisations — featuring WebSocket notifications, RSVP tracking, social sharing, and role-based access control.",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "WebSockets"],
     image: "/screenshots/bitconnect.png",
-    liveUrl: null,
+    liveUrl: "https://bit-connect-jyoti-24-05.vercel.app/",
     githubUrl: "https://github.com/Jyoti-24-05/BitConnect_",
-    status: "coming-soon",
+    status: "live",
     featured: true,
     highlights: [
       "40% reduction in API response time via efficient DB indexing",
@@ -125,6 +125,17 @@ export const skills = {
 };
 
 export const experience = [
+  {
+    role: "CyberSecurity Intern",
+    org: "CCL Ranchi",
+    location: "Ranchi Jharkhand",
+    period: "June 2026 – July 2026",
+    bullets: [
+      "Performed DFIR operations on a simulated industrial power-generation environment, investigating cyber intrusions targeting converged IT/OT infrastructure, SCADA networks, and PLC-based control systems.",
+      "Correlated firewall telemetry, VPN activity, Modbus register states, and firmware hash validations to identify attack vectors, compromised controllers, and manipulation of critical operational parameters.",
+      "Remediated control-system compromise by isolating malicious network access, restoring trusted PLC firmware and register configurations, and recovering stable plant operations through coordinated IT and OT incident response actions.",
+    ],
+  },
   {
     role: "Executive Body Member",
     org: "Institute of Engineering and Technology (IET)",
