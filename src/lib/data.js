@@ -7,7 +7,7 @@ export const personal = {
   location: "Ranchi, Jharkhand",
   email: "jyotika918273@gmail.com",
   phone: "+91-8797075142",
-  github: "https://github.com/Jyoti",
+  github: "https://github.com/Jyoti-24-05",
   linkedin: "https://linkedin.com/in/jyoti-kumari-08a0b3287",
   bio: [
     "I'm a third-year Electronics and Communication Engineering student at BIT Mesra with a passion for building software that sits at the intersection of clean architecture and real-world impact.",
@@ -50,7 +50,7 @@ export const projects = [
     tech: ["MERN Stack", "Socket.io", "Tailwind CSS", "JWT", "Cloudinary"],
     image: "/screenshots/musix.png",
     liveUrl: "https://musix-7xhg.onrender.com",
-    githubUrl: "https://github.com/Jyoti",
+    githubUrl: "https://github.com/Jyoti-24-05/spotify2.0",
     status: "live",
     featured: true,
     highlights: [
@@ -68,7 +68,7 @@ export const projects = [
     tech: ["Python", "React.js", "Agno Agents", "GPT-4o", "ElevenLabs", "Streamlit"],
     image: "/screenshots/podcast-agent.png",
     liveUrl: "https://5mftrnudx9kaescr3zqivz.streamlit.app/",
-    githubUrl: "https://github.com/Jyoti",
+    githubUrl: "https://github.com/Jyoti-24-05/agno",
     status: "live",
     featured: true,
     highlights: [
@@ -86,7 +86,7 @@ export const projects = [
     tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "WebSockets"],
     image: "/screenshots/bitconnect.png",
     liveUrl: null,
-    githubUrl: "https://github.com/Jyoti",
+    githubUrl: "https://github.com/Jyoti-24-05/BitConnect_",
     status: "coming-soon",
     featured: true,
     highlights: [
@@ -104,7 +104,7 @@ export const projects = [
     tech: ["Python", "Scikit-learn", "XGBoost", "Random Forest", "Pandas", "NumPy"],
     image: "/screenshots/nids.png",
     liveUrl: null,
-    githubUrl: "https://github.com/Jyoti",
+    githubUrl: "https://github.com/Jyoti-24-05/ELBIDS",
     status: "coming-soon",
     featured: false,
     highlights: [
@@ -139,6 +139,11 @@ export const experience = [
 ];
 
 export const achievements = [
+  {
+    title: "Purplle Techathon Finalist",
+    description:
+      "built a store-intelligence-system using CCTV analytics, real-time event streaming, anomaly detection, and production-grade APIs.",
+  },
   {
     title: "EY Hackathon",
     description:
