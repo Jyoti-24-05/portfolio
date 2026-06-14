@@ -2,7 +2,7 @@
 
 # Jyoti Kumari — Portfolio
 
-Personal portfolio website of **Jyoti Kumari** — Software Developer & ECE student at BIT Mesra.  
+Personal portfolio website — Software Developer & ECE student at BIT Mesra.  
 Built with Next.js 14 (App Router), Tailwind CSS, and a custom dark forest green color palette.
 
 🌐 **Live Site → [portfolio-jyoti-24-05.vercel.app](https://portfolio-jyoti-24-05.vercel.app/)**
