@@ -65,7 +65,7 @@ export const projects = [
     subtitle: "End-to-End AI Audio Pipeline",
     description:
       "An agentic AI pipeline that transforms any web article into an immersive audio podcast using GPT-4o reasoning, Firecrawl for scraping, and ElevenLabs for voice synthesis.",
-    tech: ["Python", "React.js", "Agno Agents", "GPT-4o", "ElevenLabs", "Streamlit"],
+    tech: ["Python", "Streamlit", "Groq", "ElevenLabs", "Firecrawl"],
     image: "/screenshots/podcast-agent.png",
     liveUrl: "https://5mftrnudx9kaescr3zqivz.streamlit.app/",
     githubUrl: "https://github.com/Jyoti-24-05/agno",
@@ -83,7 +83,7 @@ export const projects = [
     subtitle: "Campus Community Platform",
     description:
       "A high-traffic MERN stack event portal centralising activity for 15+ student organisations — featuring WebSocket notifications, RSVP tracking, social sharing, and role-based access control.",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "WebSockets"],
+    tech: [ "MERN", "Socket.IO", "Redis", "OAuth", "Cloudinary" ],
     image: "/screenshots/bitconnect.png",
     liveUrl: "https://bit-connect-jyoti-24-05.vercel.app/",
     githubUrl: "https://github.com/Jyoti-24-05/BitConnect_",
@@ -101,16 +101,32 @@ export const projects = [
     subtitle: "Ensemble ML Security System",
     description:
       "A high-performance ensemble model combining XGBoost and Random Forest to classify network threats across DoS, Probe, R2L, and U2R categories using the NSL-KDD dataset.",
-    tech: ["Python", "Scikit-learn", "XGBoost", "Random Forest", "Pandas", "NumPy"],
+    tech: ["Python", "TensorFlow", "Scikit-Learn", "XGBoost"],
     image: "/screenshots/nids.png",
     liveUrl: null,
     githubUrl: "https://github.com/Jyoti-24-05/ELBIDS",
-    status: "coming-soon",
+    status: "Research Project",
     featured: false,
     highlights: [
       "99.9% peak accuracy and AUC of 0.94 with XGBoost",
       "Pearson Correlation thresholding for dimensionality reduction",
       "Precision-recall curves on imbalanced multiclass attack distributions",
+    ],
+  },
+  {
+    id: 5,
+    title: "gst-invoice-generator",
+    subtitle: "Automated GST Invoice Generator",
+    description:
+      "A free, professional GST Invoice Generator built for Indian businesses and freelancers. Fill in seller and buyer details, add line items with GST rates, and get a live invoice preview that auto-calculates CGST/SGST for intra-state and IGST for inter-state transactions. Download the final invoice as a PDF in one click — no login, no ads, no cost.",
+    tech: ["MERN", "jsPDF", "html2canvas", "Axios", "Vercel (frontend)", "Render (backend)"],
+    image: "/screenshots/gst-invoice-generator.png",
+    liveUrl: "https://gst-invoice-generator-jyoti-24-05.vercel.app/",
+    githubUrl: "https://github.com/Jyoti-24-05/gst-invoice-generator",
+    status: "live",
+    featured: true,
+    highlights: [
+      
     ],
   },
 ];
@@ -125,17 +141,17 @@ export const skills = {
 };
 
 export const experience = [
-  {
-    role: "CyberSecurity Intern",
-    org: "CCL Ranchi",
-    location: "Ranchi Jharkhand",
-    period: "June 2026 – July 2026",
-    bullets: [
-      "Performed DFIR operations on a simulated industrial power-generation environment, investigating cyber intrusions targeting converged IT/OT infrastructure, SCADA networks, and PLC-based control systems.",
-      "Correlated firewall telemetry, VPN activity, Modbus register states, and firmware hash validations to identify attack vectors, compromised controllers, and manipulation of critical operational parameters.",
-      "Remediated control-system compromise by isolating malicious network access, restoring trusted PLC firmware and register configurations, and recovering stable plant operations through coordinated IT and OT incident response actions.",
-    ],
-  },
+  // {
+  //   role: "CyberSecurity Intern",
+  //   org: "CCL Ranchi",
+  //   location: "Ranchi Jharkhand",
+  //   period: "June 2026 – July 2026",
+  //   bullets: [
+  //     "Performed DFIR operations on a simulated industrial power-generation environment, investigating cyber intrusions targeting converged IT/OT infrastructure, SCADA networks, and PLC-based control systems.",
+  //     "Correlated firewall telemetry, VPN activity, Modbus register states, and firmware hash validations to identify attack vectors, compromised controllers, and manipulation of critical operational parameters.",
+  //     "Remediated control-system compromise by isolating malicious network access, restoring trusted PLC firmware and register configurations, and recovering stable plant operations through coordinated IT and OT incident response actions.",
+  //   ],
+  // },
   {
     role: "Executive Body Member",
     org: "Institute of Engineering and Technology (IET)",
