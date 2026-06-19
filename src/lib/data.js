@@ -100,7 +100,7 @@ export const projects = [
     title: "Network Intrusion Detection",
     subtitle: "Ensemble ML Security System",
     description:
-      "A high-performance ensemble model combining XGBoost and Random Forest to classify network threats across DoS, Probe, R2L, and U2R categories using the NSL-KDD dataset.",
+      "A high-performance ensemble model combining XGBoost and Random Forest to classify network threats across DoS, Probe, R2L, and U2R categories using the structured NSL-KDD dataset and unstructured HDFS logs.",
     tech: ["Python", "TensorFlow", "Scikit-Learn", "XGBoost"],
     image: "/screenshots/nids.png",
     liveUrl: null,
@@ -108,27 +108,27 @@ export const projects = [
     status: "Research Project",
     featured: false,
     highlights: [
-      "99.9% peak accuracy and AUC of 0.94 with XGBoost",
-      "Pearson Correlation thresholding for dimensionality reduction",
-      "Precision-recall curves on imbalanced multiclass attack distributions",
+      " Achieved 99.98% accuracy and AUC-ROC 1.00 on 12,598 test records",
+      " Trained a symmetric deep autoencoder (43→8→43) in TensorFlow/Keras",
+      "ML pipeline fusing structured NSL-KDD network telemetry with unstructured HDFS logs",
     ],
   },
-  {
-    id: 5,
-    title: "gst-invoice-generator",
-    subtitle: "Automated GST Invoice Generator",
-    description:
-      "A free, professional GST Invoice Generator built for Indian businesses and freelancers. Fill in seller and buyer details, add line items with GST rates, and get a live invoice preview that auto-calculates CGST/SGST for intra-state and IGST for inter-state transactions. Download the final invoice as a PDF in one click — no login, no ads, no cost.",
-    tech: ["MERN", "jsPDF", "html2canvas", "Axios", "Vercel (frontend)", "Render (backend)"],
-    image: "/screenshots/gst-invoice-generator.png",
-    liveUrl: "https://gst-invoice-generator-jyoti-24-05.vercel.app/",
-    githubUrl: "https://github.com/Jyoti-24-05/gst-invoice-generator",
-    status: "live",
-    featured: true,
-    highlights: [
+  // {
+  //   id: 5,
+  //   title: "gst-invoice-generator",
+  //   subtitle: "Automated GST Invoice Generator",
+  //   description:
+  //     "A free, professional GST Invoice Generator built for Indian businesses and freelancers. Fill in seller and buyer details, add line items with GST rates, and get a live invoice preview that auto-calculates CGST/SGST for intra-state and IGST for inter-state transactions. Download the final invoice as a PDF in one click — no login, no ads, no cost.",
+  //   tech: ["MERN", "jsPDF", "html2canvas", "Axios", "Vercel (frontend)", "Render (backend)"],
+  //   image: "/screenshots/gst-invoice-generator.png",
+  //   liveUrl: "https://gst-invoice-generator-jyoti-24-05.vercel.app/",
+  //   githubUrl: "https://github.com/Jyoti-24-05/gst-invoice-generator",
+  //   status: "live",
+  //   featured: true,
+  //   highlights: [
       
-    ],
-  },
+  //   ],
+  // },
 ];
 
 export const skills = {
