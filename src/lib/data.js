@@ -113,22 +113,22 @@ export const projects = [
       "ML pipeline fusing structured NSL-KDD network telemetry with unstructured HDFS logs",
     ],
   },
-  // {
-  //   id: 5,
-  //   title: "gst-invoice-generator",
-  //   subtitle: "Automated GST Invoice Generator",
-  //   description:
-  //     "A free, professional GST Invoice Generator built for Indian businesses and freelancers. Fill in seller and buyer details, add line items with GST rates, and get a live invoice preview that auto-calculates CGST/SGST for intra-state and IGST for inter-state transactions. Download the final invoice as a PDF in one click — no login, no ads, no cost.",
-  //   tech: ["MERN", "jsPDF", "html2canvas", "Axios", "Vercel (frontend)", "Render (backend)"],
-  //   image: "/screenshots/gst-invoice-generator.png",
-  //   liveUrl: "https://gst-invoice-generator-jyoti-24-05.vercel.app/",
-  //   githubUrl: "https://github.com/Jyoti-24-05/gst-invoice-generator",
-  //   status: "live",
-  //   featured: true,
-  //   highlights: [
+  {
+    id: 5,
+    title: "gst-invoice-generator",
+    subtitle: "Automated GST Invoice Generator",
+    description:
+      "A free, professional GST Invoice Generator built for Indian businesses and freelancers. Fill in seller and buyer details, add line items with GST rates, and get a live invoice preview that auto-calculates CGST/SGST for intra-state and IGST for inter-state transactions. Download the final invoice as a PDF in one click — no login, no ads, no cost.",
+    tech: ["MERN", "jsPDF", "html2canvas", "Axios", "Vercel (frontend)", "Render (backend)"],
+    image: "/screenshots/gst-invoice-generator.png",
+    liveUrl: "https://gst-invoice-generator-jyoti-24-05.vercel.app/",
+    githubUrl: "https://github.com/Jyoti-24-05/gst-invoice-generator",
+    status: "live",
+    featured: true,
+    highlights: [
       
-  //   ],
-  // },
+    ],
+  },
 ];
 
 export const skills = {
